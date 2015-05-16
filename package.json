@@ -1,0 +1,18 @@
+{
+  "jspm": {
+    "directories": {
+      "lib": "src"
+    },
+    "main": "simplePluginWithDependency",
+    "format": "amd",
+    "dependencies": {
+      "simplePlugin": "github:curran/simplePlugin@master"
+    },
+    "overrides": {
+      "github:curran/simplePlugin@master": {
+        "main": "main.js",
+        "format": "amd"
+      }
+    }
+  }
+}
